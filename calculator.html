@@ -9,12 +9,17 @@ function cube(){
 	var num = document.getElementById("n1");
 	num.value = Math.pow(num.value,3);
 }
+function elevarACuatro(){
+	var num = document.getElementById("n1");
+	num.value = Math.pow(num.value,4);
+}
 </script>
 </head>
 <body>
 Number:
 <input type="text" id ="n1"><p>
 
-<butto onclick="cube()">x³</button>
+<button onclick="cube()">x³</button>
+<button onclick="elevarACuatro()">x⁴</button>
 </body>
 </html>
